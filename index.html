@@ -2,14 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargebee AI Prototype</title>
+    
+    <!-- Load React and Babel so the browser can read .jsx -->
+    <script src="https://unpkg.com"></script>
+    <script src="https://unpkg.com"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Add basic styling to ensure the app is visible -->
+    <style>
+        body { margin: 0; font-family: sans-serif; }
+        #app { min-height: 100vh; }
+    </style>
 </head>
 <body>
-    <!-- The output of your JS will appear here -->
     <div id="app"></div>
 
-    <!-- Link your JS file here -->
-    <!-- Replace 'your-filename.js' with your actual file name -->
-    <script src="your-filename.js"></script>
+    <!-- IMPORTANT: Change 'chargebee-ai-prototype.jsx' to match your actual filename -->
+    <script type="text/babel" src="chargebee-ai-prototype.jsx"></script>
 </body>
 </html>
